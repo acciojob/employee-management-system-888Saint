@@ -33,5 +33,8 @@ public class Employee {
 
     public void displayDetails() {
     	// your code goes here
+        System.out.println("Employee ID: " + employeeId);
+        System.out.println("Name: " + name);
+        System.out.println("Salary: " + salary);
     }
 }
